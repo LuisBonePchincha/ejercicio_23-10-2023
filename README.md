@@ -17,29 +17,20 @@
 Clonar el proyecto
 
 ```bash
-  git clone https://github.com/frankramle/karate-gradle.git
+  git clone https://github.com/LuisBonePchincha/ejercicio_23-10-2023.git
 ```
 
 Entrar al directorio del proyecto
 
 ```bash
-  cd karate-gradle
+  cd ejercicio_23_10_2023
 ```
-## Comandos
 
 Para decargar todas las dependencias y no ejecutar los test
 ```bash
   gradle clean build -x test 
 ```
-Para ejecutar todos los features por linea de comandos
-```bash
-  gradle clean test 
-```
-
-> **NOTA**:
-> * Para ejecutar el proyecto se necesita Java JDK 11 y Gradle con la versión 7.6 o superior.
-> * Para poder instalar gradle en windows podemos seguir el siguiente tutorial https://www.geeksforgeeks.org/how-to-install-gradle-on-windows/.
-> * Luego de la ejecucion de pruebas, los reportes se generan en la carpeta **build/karate-reports/**, y el archivo de resumen es el **karate-summary.html**
+Para ejecutar todos los features, correr el testRunner en la ruta src/test/java
 
 ## Construido con:
 La automatización fue desarrollada con:
